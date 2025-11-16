@@ -17,15 +17,47 @@
     --base-black-soft: #0F011F;
     --base-surface: #1B0F2E;
 
+    /*text colors*/
     --text-main: #FFFFFF;
     --text-accent: #FF38CF;
     --text-soft: #DCC8FF;
     --text-muted:#A895CF;
+
+    /*fontes-familias*/
+    --font-family1: "Poppins", sans-serif;
+    --font-family2: "Inter", sans-serif;
+
+    /*fontes-tipografia*/
+    --h1: 700 48px/1.2 var(--font-family1);
+    --h2: 600 32px/1.3 var(--font-family1);
+    --h3: 500 20px/1.4 var(--font-family1);
+    --text-body:400 16px/1.6 var(--font-family2);
+    --text-secondary:500 14px/1.4 var(--font-family2);
+    --text-helper:400 14px/1.4 var(--font-family2);
+    --text-footnote: 400 12px/1.3 var(--font-family2);
+
 }
 
 body {
+    /*fundo com gradiente*/
     background: radial-gradient(circle at top left, #2A0140 0%, #0A0014 70%),
     linear-gradient(135deg, #FF38CF15 0%, #7A00FF10 100%);
     background-blend-mode: screen;
     color: var(--text-main);
+
+    /*fonte*/
+    font: var(--text-body);
+}
+
+a {
+    text-decoration: none;
+    color:inherit;
+}
+
+a:hover {
+    color: var(--text-accent);
+}
+
+h1, h2, h3 {
+    font: inherit;
 }
