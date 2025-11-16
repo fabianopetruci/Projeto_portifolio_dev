@@ -1,0 +1,94 @@
+.hero-container {
+    display: grid;
+    grid-template-columns:  2fr 1fr;
+    align-items: center;
+    gap: 64px;
+    /*border:solid 2px blue;*/
+
+    max-width: 1280px;
+    margin-inline: auto;
+    padding-inline: 32px;
+    padding-block: 80px;
+}
+
+/* ===== COLUNA ESQUERDA – TEXTO ===== */
+.hero-text {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+  max-width: 640px;
+}
+
+/* linha “Hello World! Eu sou” */
+.hero-hello {
+  font-size: 1rem;
+  line-height: 1.4;
+  color: var(--text-soft);
+}
+
+/* nome FABIANO grande */
+.hero-name {
+  font-size: 4rem;
+  line-height: 1.1;
+  font-weight: 700;
+  color: var(--text-accent);
+}
+
+/* desenvolvedor fullstack */
+.hero-role {
+  font-size: 2.3rem;
+  line-height: 1.3;
+  color: var(--text-main);
+}
+
+/* descrição */
+.hero-description {
+  font-size: 0.95rem;
+  line-height: 1.6;
+  color: var(--text-soft);
+  max-width: 420px;
+  margin-top: 8px;
+}
+
+/* botão + info embaixo do bloco de texto */
+
+.hero-button {
+  display: flex;
+  align-items: center;
+  gap: 40px;
+  margin-top: 40px;
+}
+
+.btn-primary {
+  background: transparent;
+  padding: 12px 26px;
+  border-radius: 999px;
+  border: 1px solid var(--text-accent);
+  color: var(--text-main);
+  font-weight: 500;
+  transition: 0.3s ease;
+}
+
+.btn-primary:hover {
+  background: var(--text-accent);
+  color: #000;
+}
+
+.hero-info {
+  display: flex;
+  gap: 20px;
+  font-size: 1rem;
+  color: var(--text-soft);
+}
+
+/* ===== COLUNA DIREITA – IMAGEM ===== */
+
+.hero-image img {
+  width: 100%;
+  max-width: 450px;
+  display: block;
+  margin-inline: auto;
+  border-radius: 24px;
+  filter: drop-shadow(0 0 24px #7f00ff88);
+}
+
