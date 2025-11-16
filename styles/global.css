@@ -1,0 +1,31 @@
+* {
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+
+:root {
+    /*brand colors*/
+    --brand-purple-primary: #7A00FF;
+    --brand-purple-dark: #4A007A;
+    --brand-pink-primary: #FF00E5;
+    --brand-pink-light: #FF4FD8;
+    --brand-blue-neon: #00C8FF;
+
+    /*base colors*/
+    --base-black: #0A0014;
+    --base-black-soft: #0F011F;
+    --base-surface: #1B0F2E;
+
+    --text-main: #FFFFFF;
+    --text-accent: #FF38CF;
+    --text-soft: #DCC8FF;
+    --text-muted:#A895CF;
+}
+
+body {
+    background: radial-gradient(circle at top left, #2A0140 0%, #0A0014 70%),
+    linear-gradient(135deg, #FF38CF15 0%, #7A00FF10 100%);
+    background-blend-mode: screen;
+    color: var(--text-main);
+}
