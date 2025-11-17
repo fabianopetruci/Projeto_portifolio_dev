@@ -36,10 +36,10 @@ Esse projeto foi desenvolvido com as seguintes tecnologias:
 
 Este portfólio foi criado para apresentar:
 
-🧑‍💻 Habilidades técnicas e tecnologias dominadas
-🧩 Projetos práticos e estudos realizados
-🎨 Estilo visual próprio (tema neon cyberpunk, animações e elementos interativos)
-📬 Formas de contato profissional
+- 🧑‍💻 Habilidades técnicas e tecnologias dominadas
+- 🧩 Projetos práticos e estudos realizados
+- 🎨 Estilo visual próprio (tema neon cyberpunk, animações e elementos interativos)
+- 📬 Formas de contato profissional
 
 Ele foi construído do zero, com layout totalmente próprio, responsivo e otimizado para dispositivos móveis.
 
@@ -47,38 +47,38 @@ Ele foi construído do zero, com layout totalmente próprio, responsivo e otimiz
 
 O projeto possui um visual baseado em:
 
-Tons escuros com gradientes neon
-Componentes com bordas e brilhos sutis
-Destaque para tipografia e hierarquia visual
-Elementos decorativos inspirados em interface sci-fi / synthwave
+- Tons escuros com gradientes neon
+- Componentes com bordas e brilhos sutis
+- Destaque para tipografia e hierarquia visual
+- Elementos decorativos inspirados em interface sci-fi / synthwave
 
 📚 Estrutura do Portfólio
 
 O site contém:
 
-Seção Hero com apresentação e avatar ilustrado
-Skills com ícones personalizados
-Projetos com cartões clicáveis
-Serviços oferecidos como desenvolvedor
-Contato com links para redes profissionais
-Footer simples e elegante
+- Seção Hero com apresentação e avatar ilustrado
+- Skills com ícones personalizados
+- Projetos com cartões clicáveis
+- Serviços oferecidos como desenvolvedor
+- Contato com links para redes profissionais
+- Footer simples e elegante
 
 🔧 Funcionalidades
 
-Scroll suave entre seções
-Links externos para redes sociais
-Cartões organizados com CSS Grid
-Ícones SVG otimizados
-Responsividade completa
+- Scroll suave entre seções
+- Links externos para redes sociais
+- Cartões organizados com CSS Grid
+- Ícones SVG otimizados
+- Responsividade completa
 
 🧪 Aprendizados
 
-Durante o desenvolvimento, foram reforçados conceitos como:
-Organização modular de CSS
-Estrutura semântica em HTML
-Ajustes de responsividade
-Criação de componentes reutilizáveis
-Versionamento com Git
+- Durante o desenvolvimento, foram reforçados conceitos como:
+- Organização modular de CSS
+- Estrutura semântica em HTML
+- Ajustes de responsividade
+- Criação de componentes reutilizáveis
+- Versionamento com Git
 
 📜 Licença
 
