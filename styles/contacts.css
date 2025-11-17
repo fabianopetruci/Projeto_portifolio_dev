@@ -1,0 +1,70 @@
+.contact-container {
+  padding-block: 80px;
+  text-align: center;
+}
+
+/* Título da seção: CONTATO (mesmo padrão das outras) */
+/* A fonte e cor vêm da regra global .section-title */
+.contact-container .section-title {
+  margin-bottom: 8px;
+}
+
+/* “Gostou do meu trabalho?” – menor e branco */
+.contact-highlight {
+  font: var(--h3);
+  color: var(--text-main);
+  margin-bottom: 8px;
+}
+
+.contact-subtitle {
+  font: var(--text-secondary);
+  color: var(--text-soft);
+  margin-bottom: 32px;
+}
+
+/* cartão que agrupa as opções */
+.contact-card {
+  background-color: #1B0F2E80;
+  border-radius: 16px;
+  border: 1px solid #FFFFFF20;
+  padding-block: 8px;
+  padding-inline: 16px;
+  max-width: 540px;
+  margin: 0 auto;
+}
+
+/* cada linha (LinkedIn, Insta, etc.) */
+.contact-item {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding-block: 14px;
+  gap: 16px;
+  border-bottom: 1px solid #ffffff10;
+  text-decoration: none;
+  color: inherit;
+}
+
+.contact-item:last-child {
+  border-bottom: none;
+}
+
+/* ícone + texto à esquerda */
+.contact-left {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  font: var(--text-secondary);
+}
+
+.contact-left img {
+  width: 24px;
+  height: 24px;
+}
+
+/* setinha da direita */
+.contact-arrow {
+  font-size: 18px;
+}
+
+
