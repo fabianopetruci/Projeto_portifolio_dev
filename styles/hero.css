@@ -8,6 +8,47 @@
     margin-inline: auto;
     padding-inline: 32px;
     padding-block: 80px;
+
+    position: relative;
+    overflow: hidden;
+    /*z-index: 1;*/
+}
+
+/* grade inferior */
+.hero-container::before {
+    content: "";
+    position: absolute;
+    left: 0;
+    bottom: -40px;
+    width: 100%;
+    height: 260px;
+
+    background-image: url("../assets/images/bg-lines.png");
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    background-position: center bottom;
+
+    opacity: 0.25;
+    z-index: -1;
+}
+
+/* grade superior – invertida */
+.hero-container::after {
+    content: "";
+    position: absolute;
+    left: 0;
+    top: -40px;
+    width: 100%;
+    height: 260px;
+
+    background-image: url("../assets/images/bg-lines.png");
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    background-position: center top;
+
+    transform: scaleY(-1);
+    opacity: 0.15;
+    z-index: -1;
 }
 
 /* ===== COLUNA ESQUERDA – TEXTO ===== */
