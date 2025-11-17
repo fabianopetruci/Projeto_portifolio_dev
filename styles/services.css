@@ -37,3 +37,15 @@
     }
 
 }
+
+.service-title {
+    font: var(--h3);
+    color: var(--text-soft);
+    margin-top:12px;
+    margin-bottom: 8px;
+}
+
+.service-description {
+    font: var(--text-secondary);
+    margin-bottom: 16px;
+}
